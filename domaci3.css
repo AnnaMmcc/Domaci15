@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.FlexEnd {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.container {
+	font-family: "Fira Sans", sans-serif;
+}
+
+.viewMoreButton {
+	background-color: transparent;
+	padding: 1rem 2rem;
+	border-radius: 40px;
+}
+
+.positionRelative {
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	background-color: transparent;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 40px;
+}
+.buttonClick {
+	position: relative;
+}
+
+.correctImage {
+	border-radius: 50%;
+}
+.fontSize {
+	font-size: smaller;
+}
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+	.positionRelative,
+	.viewMoreButton {
+		right: 0.5rem;
+		bottom: 0.5rem;
+		padding: 0.5rem;
+	}
+}
